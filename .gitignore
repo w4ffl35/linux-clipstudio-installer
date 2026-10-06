@@ -1,0 +1,5 @@
+*.exe
+*.msi
+*.reg
+*.log
+wineprefixes/

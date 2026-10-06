@@ -1,0 +1,1 @@
+This repository contains installation notes and scripts. It does not include Clip Studio Paint, its installer, or other Celsys software. Clip Studio Paint remains subject to Celsys's license terms. The screenshot in `docs/clip-studio-paint-ex-linux.png` was supplied by the repository owner.
