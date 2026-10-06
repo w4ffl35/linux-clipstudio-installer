@@ -54,7 +54,7 @@ The script stops if that prefix already exists, to avoid changing or overwriting
 
 Use Clip Studio's normal license activation. Celsys documents an offline activation process for perpetual Ver. 1 licenses [here](https://support.clip-studio.com/en-us/faq/articles/20210006). It requires your valid serial number and a separate internet-connected device. Do not put serial numbers or account credentials in this repository or its issue tracker.
 
-In my Wine setup, the main Paint interface opens, but the embedded Clip Studio page reports that it is offline. Linux itself can reach the Clip Studio website. Treat the embedded online services, account sign-in, asset store and cloud features as unverified; this guide does not fix or promise those services.
+In my Wine setup, Paint opens and I was able to sign in. I have not verified cloud sync, asset downloads or the other online features, so don't assume they all work.
 
 ## Tablet notes
 
@@ -64,7 +64,7 @@ The Deco LW appeared in `lsusb` as `28bd:0935` and Linux exposed pen, mouse and 
 
 - Celsys lists Windows and macOS, not Linux, in its [desktop system requirements](https://support.clip-studio.com/en-us/faq/articles/20250002). Wine compatibility is unofficial and may break after application, Wine or system updates.
 - The tested release is the Windows Ver. 1.13.2 installer. Other Clip Studio Paint versions and editions are untested by this repository.
-- The embedded online page reported offline on the tested machine. Activation, cloud sync, asset downloads and other web-backed features may not work.
+- Cloud sync, asset downloads and other web-backed features have not been verified in this setup.
 - Tablet discovery by Linux does not guarantee pressure sensitivity, buttons, mapping or calibration in Paint.
 - Do not run the installer as root. Keep the prefix dedicated to Clip Studio Paint and back it up before changing Wine components.
 
